@@ -23,16 +23,16 @@ const DataTable: React.FC<{ data: GroupWineAttribute[] }> = ({ data }) => {
     </thead>
     <tbody>
         <tr>
-        <th>Gamma Mean</th>
-        { gammaMeans.map((item, index) => (<td key={'mean-' + index}>{item}</td>)) }
+            <th>Gamma Mean</th>
+            { gammaMeans.map((item, index) => (<td key={'mean-' + index}>{item}</td>)) }
         </tr>
         <tr>
-        <th>Gamma Median</th>
-        { gammaMedians.map((item, index) => (<td key={'median-' + index}>{item}</td>)) }
+            <th>Gamma Median</th>
+            { gammaMedians.map((item, index) => (<td key={'median-' + index}>{item}</td>)) }
         </tr>
         <tr>
-        <th>Gamma Mode</th>
-        { gammaModes.map((item, index) => (<td key={'mode-' + index}>{item}</td>)) }
+            <th>Gamma Mode</th>
+            { gammaModes.map((item, index) => (<td key={'mode-' + index}>{item}</td>)) }
         </tr>
     </tbody>
     </table>

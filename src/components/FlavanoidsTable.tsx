@@ -18,22 +18,22 @@ const DataTable: React.FC<{ data: GroupWineAttribute[] }> = ({
     <table className="wine-table">
     <thead>
         <tr>
-        <th>Measure</th>
-        { data.map((item, index) => (<th key={'head-' + index}>{"Class " + item.name}</th>)) }
+            <th>Measure</th>
+            { data.map((item, index) => (<th key={'head-' + index}>{"Class " + item.name}</th>)) }
         </tr>
     </thead>
     <tbody>
         <tr>
-        <th>Flavanoids Mean</th>
-        { flavanoidsMeans.map((item, index) => (<td key={'mean-' + index}>{item}</td>)) }
+            <th>Flavanoids Mean</th>
+            { flavanoidsMeans.map((item, index) => (<td key={'mean-' + index}>{item}</td>)) }
         </tr>
         <tr>
-        <th>Flavanoids Median</th>
-        { flavanoidsMedians.map((item, index) => (<td key={'median-' + index}>{item}</td>)) }
+            <th>Flavanoids Median</th>
+            { flavanoidsMedians.map((item, index) => (<td key={'median-' + index}>{item}</td>)) }
         </tr>
         <tr>
-        <th>Flavanoids Mode</th>
-        { flavanoidsModes.map((item, index) => (<td key={'mode-' + index}>{item}</td>)) }
+            <th>Flavanoids Mode</th>
+            { flavanoidsModes.map((item, index) => (<td key={'mode-' + index}>{item}</td>)) }
         </tr>
     </tbody>
     </table>
