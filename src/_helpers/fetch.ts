@@ -2,7 +2,7 @@ import { WineAttribute } from "./types";
 
 // Fetching data from json file
 export async function fetchWineData() {
-  let res = await fetch("data/Wine-Data.json");
+  let res = await fetch("./data/Wine-Data.json");
   let jsonData = await res.json();
   return jsonData.map((item: any) => {
     return {
