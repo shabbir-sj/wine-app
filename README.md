@@ -4,6 +4,8 @@ This project is implemented as an assignment to showcase my skill. Following are
 
 ![Calculation result](screenshots/result.png)
 
+## **[Click me for Live Demos!](https://shabbir-sj.github.io/wine-app/)**
+
 ## Available Scripts
 
 In the project directory, you can run:
